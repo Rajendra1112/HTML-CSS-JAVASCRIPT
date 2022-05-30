@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>backgroundcolor chanage</title>
+    <script>
+        function bgchange(sample) {
+            document.body.bgColor = sample;
+        }
+        function textcolorchange(){
+            t=prompt("enter the text color:");
+            document.body.text=t;
+        }
+    </script>
+</head>
+
+<body>
+    <p>The background-color property sets the background color of an element.The background of an element
+        is the total size of the element, including padding and border (but not the margin).</p>
+    <button onclick="bgchange('violet')">violet</button>
+    <button onclick="bgchange('indigo')">indigo</button>
+    <button onclick="bgchange('black')">black</button>
+    <button onclick="bgchange('green')">green</button>
+    <button onclick="bgchange('yellow')">yellow</button>
+    <button onclick="bgchange('orange')">orange</button>
+    <button onclick="bgchange('red')">red</button>
+    <button onclick="textcolorchange()">change text color</button>
+    
+</body>
+
+</html>

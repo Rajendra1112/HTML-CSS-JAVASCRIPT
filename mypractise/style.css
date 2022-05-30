@@ -1,0 +1,426 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.main{
+    height: 2400px;
+    width: 2400px;
+    background-color: aquamarine;
+    border-style: solid;
+}
+.firstrow{
+    height: 300;
+    background-color: blue;
+}
+.a{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.b{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.c{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.d{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.e{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.f{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.g{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.h{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.secondrow{
+    height: 300;
+    background-color: yellow;
+}
+.aa{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.bb{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.cc{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.dd{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.ee{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.ff{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.gg{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.hh{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.thirdrow{
+    height: 300;
+    background-color: orange;
+}
+.aaa{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.bbb{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.ccc{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.ddd{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.eee{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.fff{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.ggg{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.hhh{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.fouthrow{
+    height: 300;
+    background-color: purple;
+}
+.aaaa{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.bbbb{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.cccc{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.dddd{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.eeee{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.ffff{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.gggg{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.hhhh{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.fifthrow{
+    height: 300;
+    background-color: gray;
+}
+.a5{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.b5{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.c5{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.d5{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.e5{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.f5{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.g5{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.h5{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.sixthrow{
+    height: 300;
+    background-color: yellowgreen;
+}
+.a6{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.b6{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.c6{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.d6{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.e6{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.f6{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.g6{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.h6{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.seventhrow{
+    height: 300;
+    background-color: brown;
+}
+.a7{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.b7{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.c7{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.d7{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.e7{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.f7{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.g7{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.h7{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.eighthrow{
+    height: 300;
+    background-color: gold;
+}
+.a8{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.b8{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.c8{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.d8{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+.e8{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+.f8{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}
+.g8{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    float: left; 
+}
+.h8{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left; 
+}

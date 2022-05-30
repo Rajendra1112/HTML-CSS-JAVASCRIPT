@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>jquery basic effects</title>
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#hide').click(function(){
+                    $('.main').hide(3000);
+                    });
+                    $('#show').click(function(){
+                        $('.main').show();
+                    });
+                    $('#toggle').click(function(){
+                        $('.main').toggle();
+                    });
+                    $('#fadeout').click(function(){
+                        $('.main').fadeOut(5555);
+                    });
+                    $('#fadein').click(function(){
+                        $('.main').fadeIn(5674);
+                    });
+                    $('#fadetoggle').click(function(){
+                        $('.main').fadeToggle(4000);
+                    });
+                    $('#slideup').click(function(){
+                        $('.main').slideUp(3000);
+                    });
+                    $('#slidedown').click(function(){
+                        $('.main').slideDown(3000);
+                    });
+                    $('#slidetoggle').click(function(){
+                        $('.main').slideToggle(4000);
+                    });
+                    $('#slidetoggle').click(function(){
+                        $('.main').slideToggle(3456);
+                    });
+                    $('#append').click(function(){
+                        $('ol').append('<li>mango</li>');
+                    });
+                    $('#prepend').click(function(){
+                        $('ol').prepend('<li>cat</li>')
+                    })
+                });
+        </script>
+    </head>
+    <body>
+        <center>
+            <button id="hide">hide</button>
+            <button id="show">show</button>
+            <button id="toggle">toggle</button>
+            <button id="fadeout">fade out</button>
+            <button id="fadein">fade in</button>
+            <button id="fadetoggle">fade toggle</button>
+            <button id="slideup">slide up</button>
+            <button id="slidedown">slide down</button>
+            <button id="slidetoggle">slide toggle</button>
+            <div class="main" style="background-color: black; height: 300px; width: 500px;"></div>
+            <ol>
+                <li>apple</li>
+            </ol>
+            <button id="append">append</button>
+            <button id="prepend">prepend</button>
+        </center>
+    </body>
+</html>

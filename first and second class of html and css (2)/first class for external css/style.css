@@ -1,0 +1,39 @@
+.main{
+    height: 1000px;
+    width: 900px;
+    background-color: gray;
+}
+.header{
+    height: 200px;
+    background-color: red;
+}
+.main .header h1{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    line-height: 200px;
+}
+.content{
+    /* margin: 0px; */
+    height: 600px;
+    background-color: purple;
+}
+.content p{
+    /* margin: 0px; */
+    /* padding-left: 30px; */
+ font-size: 20px;
+ color: whitesmoke;
+ text-align: center;
+}
+.footer{
+    height: 200px;
+    background-color: blue;
+}
+.footer h2{
+    text-align: center;
+    line-height: 200px;
+}
+*{
+    margin: 0px auto;
+    padding: 0px;
+}

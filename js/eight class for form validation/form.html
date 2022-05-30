@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>form validation</title>
+    <script type="text/javascript" src="validation.js"></script>
+</head>
+<body>
+    <form action="">
+        <p>user name:<br>
+            <input type="text" placeholder="First name" id="ufname" autofocus>
+            <input type="text" placeholder="Last name" id="ulname">
+        </p>
+        <p>password:<br>
+            <input type="password" id="upassword" onkeyup="validpass()">
+            <span id="errorpass"></span>
+        </p>
+        <p>email:<br>
+        <input type="email" placeholder="e.g. abc123@gmail.com" id="uemail" onkeyup="validemail()">
+        <span id="erroremail"></span>
+        </p>
+        <p>phone number:<br>
+            <input type="text" id="uphone" onkeyup="validphone()">
+            <span id="errorphone"></span>
+        </P>
+        <p>
+          <textarea id="comment" placeholder="enter your comment here" onkeyup="validcomment()"></textarea> 
+          <span id="errorTerm">forty characters required</span>
+        </p>
+    <input type="radio" name="one" id="radio1" onchange="validradio()">agree<br>
+    <input type="radio" name="one" id="radio2" onchange="validradio()">diagree<br>
+    <span id="errradio"></span>
+    </form>
+</body>
+</html>

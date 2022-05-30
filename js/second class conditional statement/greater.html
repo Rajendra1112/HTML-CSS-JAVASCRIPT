@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>js if else_if else</title>
+    <script type="text/javascript">
+        // here eval is used because when we used more then one variable then javascript will randomly
+        // assign the data type of those variable os here while comparing a,b,c javascript  compare on 
+        // string basis i.e. compiler declare above variables as string 
+        // data type which is javascript glitch or default error.
+        // eval evaluate the input and assign as number or string on required basis.
+        var a=eval(prompt("Enter 1st value:"));
+        var b=eval(prompt("Enter 2nd value:"));
+        var c=eval(prompt("Enter 3rd value:"));
+        if(a>b && a>c)
+        document.write(a+" value is greater");
+        else if(b>c)
+        document.write(b+" value is greater");
+        else
+        document.write(c+" value is greatest");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

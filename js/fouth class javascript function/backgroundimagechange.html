@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>background change</title>
+        <style type="text/class" media="screen">
+            body{
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        </style>
+        <script>
+            function imag(abc) {
+                document.body.background=abc;
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td onmouseover="imag('images/image1.png')"><img src="images/image1.png" height="100px"></td>
+                <td onmouseover="imag('images/image2.jpeg')"><img src="images/image2.jpeg" height="100px"></td>
+                <td onmouseover="imag('images/image3.jpg')"><img src="images/image3.jpg" height="100px"></td>
+                <td onmouseover="imag('images/image4.png')"><img src="images/image4.png" height="100px"></td>
+            </tr>
+        </table>
+    </body>
+</html>

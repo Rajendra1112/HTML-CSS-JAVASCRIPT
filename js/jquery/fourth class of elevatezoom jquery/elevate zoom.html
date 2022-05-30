@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>elevate zoom</title>
+    </head>
+    <img src="a.jpg" id="elevate-image1" data-zoom-image="a.jpg" height="500px" width="500px"><br>
+    <img src="b.jpg" id="elevate-image2" data-zoom-image="b.jpg" height="500px" width="500px"><br>
+    <img src="c.jpg" id="elevate-image3" data-zoom-image="c.jpg" height="500px" width="500px"><br>
+    <img src="d.jpg" id="elevate-image4" data-zoom-image="d.jpg" height="500px" width="500px"><br>
+    <img src="e.jpg" id="elevate-image5" data-zoom-image="e.jpg" height="500px" width="500px"><br>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.elevateZoom-3.0.8.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#elevate-image1').elevateZoom({
+                tint:true,
+                tintColour:"F90",
+                tintOpacity:0.5,
+                zoomWindowFadeIn:1000,
+                zoomWindowFadeOut:1000,
+                zoomWindowFadeHeight:1400,
+                zoomWindowFadeWidth:1400
+            });
+            $('#elevate-image2').elevateZoom({
+                zoomType:"inner",
+                cursor:"crosshair"
+            });
+            $('#elevate-image3').elevateZoom({
+                tint:true,
+                tintColour:'#F90',
+                tintOpacity:0.5
+            });
+            $('elevate-image4').elevateZoom({
+                zoomType:"lens",
+
+            })
+        });
+    </script>
+</html>

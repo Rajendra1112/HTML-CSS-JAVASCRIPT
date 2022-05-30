@@ -1,0 +1,43 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.button1{
+    margin-top: 5px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
+    transition-duration: 0.4s;
+
+}
+.button2{
+    margin-top: 5px;
+    background-color:black;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: gray; /* Green */
+    color: white;
+  }
+
+  .button2:hover {
+    background-color:yellow; /* Green */
+    color: white;
+  }

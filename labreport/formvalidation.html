@@ -1,0 +1,25 @@
+<!-- form validation -->
+<html>
+<head>
+    <title>form validation</title>
+    <script src="validation.js" type="text/javascript" ></script>
+</head>
+<body>
+    <form>
+        Username:
+        <input type="text" id="uname" placeholder="enter name" autofocus onkeyup="validname()">
+        <span id="errname"></span>
+        <br><br>
+        Phone number:
+        <input type="text" id="upnum" placeholder="enter phone number" onkeyup="validphone()">
+        <span id="errphone"></span>
+        <br><br>
+        Email:
+        <input type="email" placeholder="e.g. abc123@gmail.com" id="uemail" onkeyup="validemail()">
+        <span id="erroremail"></span><br><br>
+        Comment:<br>
+        <textarea id="ucomnt"placeholder="give some comment" onkeyup="validcomment()"></textarea>
+        <span id="errcomment"></span>
+    </form>
+</body>
+</html>

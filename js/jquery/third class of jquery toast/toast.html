@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>toast query</title>
+        <link rel="stylesheet" type="text/css" href="jquery.toast.min.css">
+        <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="jquery.toast.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $.toast({
+                    Text:'this is demo of toast message',
+                    heading:'this is heading for the toast message',
+                    icon:'success',
+                    hideAfter:5000
+                });
+                $.toast({
+                    Text:'this is second demo of toast message',
+                    heading:'this is heading for the second toast message',
+                    icon:'error',
+                    hideAfter:10000
+                });
+                $.toast({
+                    Text:'this is third demo of toast message',
+                    heading:'this is heading for the third toast message',
+                    icon:'warning',
+                    hideAfter:20000
+                });
+            });
+        </script>
+    </head>
+</html>

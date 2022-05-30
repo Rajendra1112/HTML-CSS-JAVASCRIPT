@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>timer for fb</title>
+    <script>
+        function redirect(){
+            location="https://fb.com";
+        }
+        setTimeout("redirect()",5000);
+        t=5;
+        function timer()
+        {
+            document.getElementById("message").innerHTML=t;
+            t--;
+        }
+        setInterval("timer()",1000);
+    </script>
+</head>
+<body>
+   <p>please wait for <span id="message" style="background-color: blue; color: brown; border: 2px;"></span> seconds</p> 
+</body>
+</html>

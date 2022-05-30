@@ -1,0 +1,27 @@
+
+<html>
+<head>
+    <title>digital clock</title>
+    <script>
+        function sample(){
+            var d=new Date();
+            document.getElementById('hour').value=d.getHours();
+            document.getElementById('min').value=d.getMinutes();
+            document.getElementById('sec').value=d.getSeconds();
+            document.getElementById('msec').value=d.getMilliseconds();
+        }
+        setInterval(sample,10)
+    </script>
+</head>
+<body>
+    <h1 align="center">Digital Clock</h1>
+    <center>
+        <form>
+            <input type="text" id="hour" size="2">
+            <input type="text" id="min" size="2">
+            <input type="text" id="sec" size="2">
+            <input type="text" id="msec" size="2">
+        </form>
+    </center>
+</body>
+</html>

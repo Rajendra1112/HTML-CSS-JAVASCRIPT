@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>js timer</title>
+    <script>
+        function redirect(){
+            location="https://fb.com";
+        }
+        setTimeout("redirect()",6000);
+        t=6;
+        function timer(){
+            document.getElementById("message").innerHTML=t;
+            t--;
+        }
+        setInterval("timer()",1000);
+    </script>
+</head>
+<body>
+    <p>please wait for <span id="message" style="font-size: 20px; color: red;"></span> seconds</p>
+</body>
+</html>

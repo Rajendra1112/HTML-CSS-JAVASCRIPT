@@ -1,0 +1,40 @@
+class and id are same but we use class mainly during css because we need to give different id for 
+different element but we can give same class name to all the elements 
+
+for e.g. for id:
+<h1 id="head1">hello</h1>
+<h2 id="head2">hello</h2>
+
+for e.g. for class
+<h1 class="head1">hello</h1>
+<h2 class="head1">hello</h2>
+
+//css portion
+<style rel="stylesheet" type="text/css">
+//calling with the help of id:
+h1#head1{
+...
+...
+...
+}
+
+h2#head2{
+...
+...
+...
+}
+
+//calling with the help of class:
+h1.head1{
+...
+...
+...
+}
+
+h2.head1{
+...
+...
+...
+}
+</style>
+
